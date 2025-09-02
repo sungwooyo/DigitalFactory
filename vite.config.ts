@@ -66,7 +66,7 @@ export default defineConfig({
     }),
   ],
   base,
-  build: { sourcemap: true, outDir: 'dist' }, // dist로 변경
+  build: { sourcemap: true, outDir: 'out' }, // dist로 변경
   resolve: {
     alias: {
       '@': resolve(__dirname, './src')
